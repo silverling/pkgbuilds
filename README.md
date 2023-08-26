@@ -1,0 +1,1 @@
+This repository contains a collection of patched PKGBUILD files intended for my personal use.

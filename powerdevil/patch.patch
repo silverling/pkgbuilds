@@ -1,0 +1,13 @@
+diff --git a/daemon/powerdevilpolicyagent.cpp b/daemon/powerdevilpolicyagent.cpp
+index 2c38812..ce6f7c7 100644
+--- a/daemon/powerdevilpolicyagent.cpp
++++ b/daemon/powerdevilpolicyagent.cpp
+@@ -774,6 +774,8 @@ void PolicyAgent::releaseAllInhibitions()
+ 
+ void PolicyAgent::setupSystemdInhibition()
+ {
++    return;
++    
+     if (m_systemdInhibitFd.fileDescriptor() != -1)
+         return;
+ 
